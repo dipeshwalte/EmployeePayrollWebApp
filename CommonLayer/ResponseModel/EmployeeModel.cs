@@ -18,7 +18,7 @@ namespace CommonLayer.ResponseModel
         [Required]
         public string Notes { get; set; }
         [Required]
-        public string ProfileImage { get; set; }
+        public string ProfileImage { get; set;}
         [Required]
         public DateTime StartDate { get; set; }
         [Required]
